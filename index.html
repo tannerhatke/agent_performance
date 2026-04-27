@@ -8,15 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --brand-bg: #020617;
-            --brand-panel: rgba(15, 23, 42, 0.4);
-            --brand-border: rgba(51, 65, 85, 0.5);
+            --brand-bg: #ffffff;
+            --brand-panel: #1f1b4b;
+            --brand-border: rgba(255, 255, 255, 0.1);
             --brand-accent: #06b6d4;
         }
         body {
             background-color: var(--brand-bg);
             font-family: 'Inter', sans-serif;
-            color: #f1f5f9;
+            color: #0f172a;
             margin: 0;
             overflow-x: hidden;
         }
@@ -27,11 +27,13 @@
             background: var(--brand-panel);
             backdrop-filter: blur(8px);
             border: 1px solid var(--brand-border);
+            color: #f8fafc;
         }
         .stat-card {
-            background: rgba(15, 23, 42, 0.4);
-            border: 1px solid rgba(51, 65, 85, 0.5);
+            background: var(--brand-panel);
+            border: 1px solid var(--brand-border);
             border-left-width: 4px;
+            color: #f8fafc;
         }
         @keyframes pulse-glow {
             0%, 100% { opacity: 1; }
